@@ -1,7 +1,33 @@
-import React from "react";
+import { useEffect } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 import "../styles/Partner.css";
 
+gsap.registerPlugin(ScrollTrigger);
+
 function Partner() {
+
+    useEffect(() => {
+        const images = document.querySelectorAll(".partner-logos img");
+    
+        gsap.fromTo(
+          images,
+          { y: 50, opacity: 0 }, 
+          {
+            y: 0, 
+            opacity: 1,
+            duration: 1.5,
+            stagger: 1,
+            scrollTrigger: {
+              trigger: ".partner-container", 
+              start: "top 40%",
+              end: "bottom bottom",
+              toggleActions: "play none none reverse",
+              scrub: 1,
+            },
+          }
+        );
+      }, []);    
 
     return (
 
