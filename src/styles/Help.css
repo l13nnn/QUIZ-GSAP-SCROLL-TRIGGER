@@ -1,0 +1,40 @@
+.help-section {
+    font-family: "DM Sans", sans-serif;
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+}
+
+.help-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    padding: 80px;
+}
+
+.help-text {
+    padding: 80px;
+}
+
+.help-card {
+    background-color: white;
+}
+
+.help-card-text {
+    border: 4px solid black;
+    padding: 3rem;
+    font-size: 1rem;
+  }
+
+.button-help {
+    padding: 80px;
+}
+
+button {
+    background-color: #ff97d0;
+    border: 3px solid black;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}

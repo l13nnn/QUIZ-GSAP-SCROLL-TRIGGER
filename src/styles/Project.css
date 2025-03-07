@@ -1,0 +1,56 @@
+.project-container {
+    font-family: "DM Sans", sans-serif;
+    background-color: #3e88ff;
+    color: white;
+    font-size: 30px;
+}
+
+.project-text {
+    padding: 100px;
+}
+
+.card-project-container {
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.card-project {
+    background-color: black;
+    cursor: pointer;
+}
+
+.card-project-2 {
+    background-color: #31be32;
+    cursor: pointer;
+}
+
+.card-project-3 {
+    background-color: #ff97d0;
+    cursor: pointer;
+}
+
+.card-project-container h2 {
+    padding: 10px;
+} p {
+    padding: 10px;
+}
+
+.card-project-text {
+    padding: 50px;
+    border: 4px solid white;
+    padding: 50px;
+}
+
+.card-project-text-2 {
+    padding: 50px;
+    border: 4px solid white;
+    padding: 50px;
+}
+
+.card-project-text-3 {
+    padding: 50px;
+    border: 4px solid white;
+    padding: 50px;
+}

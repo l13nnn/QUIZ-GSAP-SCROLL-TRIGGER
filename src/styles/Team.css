@@ -1,0 +1,32 @@
+.team-section {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+}
+
+.team-card img {
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%);
+    padding: 10px;
+}
+
+.team-card {
+    background-color: yellow;
+    text-align: center;
+}
+
+.team-card-text {
+    border: 3px solid black;
+    padding: 0 0 100px;
+    font-size: 15px;
+}
+
+.our-team-section {
+    padding: 50px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}

@@ -1,0 +1,55 @@
+.button-inner {
+    background-color: white;
+    display: flex;
+    position: fixed;
+    width: 100px;
+    top: 20px;
+    right: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.button-text {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.container {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+}
+
+.background {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.text {
+    font-size: 40px;
+}
+
+.sosial-media {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.sosial-media img {
+    width: 50px;
+    height: 50px;
+}
+
+.image img {
+    display: flex;
+}

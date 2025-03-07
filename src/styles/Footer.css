@@ -1,0 +1,10 @@
+.sosial-media {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.sosial-media img {
+    width: 50px;
+    height: 50px;
+}

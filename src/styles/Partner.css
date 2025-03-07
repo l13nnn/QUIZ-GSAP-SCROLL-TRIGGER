@@ -1,0 +1,18 @@
+.partner-container {
+    font-family: "DM Sans", sans-serif;
+    padding: 100px;
+    font-size: 30px;
+}
+
+.partner-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.partner-logos img {
+    width: 223px;
+    height: 100px;
+    filter: grayscale(100%);
+    padding: 10px;
+}
